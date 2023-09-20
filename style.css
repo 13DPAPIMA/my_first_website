@@ -1,0 +1,98 @@
+.name {
+    background-color: #fff;
+    /* Background color for the header */
+    color: #fff;
+    padding: 30px;
+    text-align: left;
+    font-size: 24px;
+}
+
+.h1 {
+    text-align: center;
+    justify-content: center;
+}
+
+.input_container {
+    text-align: right;
+}
+
+.header {
+    background-color: #fff;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+}
+
+.image {
+    position: absolute;
+    /* Position the image absolutely */
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.links {
+    align-items: center;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.pic3 {
+    cursor: pointer;
+}
+
+.information {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comapny_name {
+    top: 40%;
+    left: 40%;
+    font-size: 35px;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: Verdana, sans-serif;
+}
+
+.interactive-button {
+    background-color: #fff;
+    /* Button background color */
+    color: "black";
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    font-weight: bold;
+    /* Makes the text bold */
+    transition: background-color 0.3s ease;
+    /* Smooth background color change */
+    font-family: Copperplate, sans-serif;
+    margin-right: 20px;
+}
+
+.interactive-button:hover {
+    background-color: #999;
+    /* Change background color on hover to gray */
+}
